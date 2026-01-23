@@ -1,17 +1,12 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.FormPage;
-
-import java.time.Duration;
 
 
 public class FormTest {
@@ -55,8 +50,4 @@ public class FormTest {
         Assert.assertEquals(formPage.getSubmittedValue("State and City"),"Haryana Karnal");
     }
 
-//    @AfterClass
-    public void tearDown() {
-        driver.quit();
-    }
 }
