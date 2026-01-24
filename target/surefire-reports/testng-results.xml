@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-24T07:07:09 GET" name="Surefire suite" finished-at="2026-01-24T07:07:32 GET" duration-ms="23412">
+    <groups>
+    </groups>
+    <test started-at="2026-01-24T07:07:09 GET" name="Surefire test" finished-at="2026-01-24T07:07:32 GET" duration-ms="23412">
+      <class name="tests.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTest@ba54932]" started-at="2026-01-24T07:07:21 GET" name="setUp" finished-at="2026-01-24T07:07:25 GET" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillForm()[pri:0, instance:tests.FormTest@ba54932]" started-at="2026-01-24T07:07:25 GET" name="fillForm" finished-at="2026-01-24T07:07:32 GET" duration-ms="6693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTest@ba54932]" started-at="2026-01-24T07:07:32 GET" name="tearDown" finished-at="2026-01-24T07:07:32 GET" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormTest -->
+      <class name="tests.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:09 GET" name="setUp" finished-at="2026-01-24T07:07:13 GET" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmAlertTest()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:13 GET" name="confirmAlertTest" finished-at="2026-01-24T07:07:14 GET" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmAlertTest -->
+        <test-method signature="promptAlertTest()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:14 GET" name="promptAlertTest" finished-at="2026-01-24T07:07:15 GET" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlertTest -->
+        <test-method signature="simpleAlertTest()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:15 GET" name="simpleAlertTest" finished-at="2026-01-24T07:07:15 GET" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlertTest -->
+        <test-method signature="timedAlertTest()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:15 GET" name="timedAlertTest" finished-at="2026-01-24T07:07:21 GET" duration-ms="5562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timedAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertTest@1d8bd0de]" started-at="2026-01-24T07:07:21 GET" name="tearDown" finished-at="2026-01-24T07:07:21 GET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AlertTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
